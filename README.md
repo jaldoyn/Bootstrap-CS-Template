@@ -1,0 +1,2 @@
+# Bootstrap-CS-Template
+The main goal of this project is to create a standard HTML document to be used by team members when building landing pages regardless of the site the page is meant to reside in. As part of that goal, we want to make sure every landing page is using the same CSS framework that allowed them to more easily build their pages without putting restrictions on what type of layout the designer can go with.
