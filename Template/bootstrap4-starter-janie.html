@@ -618,6 +618,22 @@
         z-index: 1030;
     }
 
+    /* VIDEO */
+    .c-video {
+        height: 0;
+        max-width: 100%;
+        padding-top: 56.25%;
+        position: relative;
+    }
+
+    .c-video iframe {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
     @media (min-width: 576px) {
 
         .container,
@@ -2392,7 +2408,7 @@
     /* END BOOTSTRAP BASIC */
     /* ======================================== */
 
-    /* YOUR CODE STARTS HERE */
+    /* YOUR CODE STARTS HERE  - REMEMBER MOBILE FIRST DESIGN */
     #wrapper-jiraNum {
         color: #000000;
         font-family: "Montserrat", gotham, helvetica, sans-serif;
@@ -2565,10 +2581,9 @@
     }
 
     /* SECTION THREE */
-
-
     /* SECTION FOUR */
-
+    /* SECTION FIVE */
+    /* SECTION SIX */
 
     /* UF PRICING */
     /* #wrapper-jiraNum p.pricing {
@@ -2720,6 +2735,20 @@
                 </div>
                 <div class="col-6 col-md-3  sm-padding">
                     <img src="http://placehold.jp/800x800.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SIX - VIDEO -->
+
+    <section class="secSix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 c-video">
+                    <iframe src="https://www.youtube.com/embed/9XQSFLMpn_c" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
         </div>
