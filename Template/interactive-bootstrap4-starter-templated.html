@@ -1,0 +1,442 @@
+<link rel="stylesheet" href="css/interactive-bootstrap.min.css">
+<style>
+    /* --------------------------------------NOTE TO DESIGNERS---------------------------------------- */
+    /* THIS TEMPLATE IS BUILT TO BE MOBILE FIRST - USE YOUR MEDIA QUERIES FOR THE LARGER SIZES---------*/
+
+    /* YOUR CODE STARTS HERE  */
+    :not(style):not(link):not(meta):not(script)~section {
+        margin-top: 0;
+    }
+
+    #wrapper-jiraNum {
+        color: #000000;
+        font-family: "Montserrat", gotham, helvetica, sans-serif;
+        font-size: 18px;
+        line-height: 1.6em;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    #wrapper-jiraNum * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    #wrapper-jiraNum h1,
+    #wrapper-jiraNum h2,
+    #wrapper-jiraNum h3,
+    #wrapper-jiraNum h4,
+    #wrapper-jiraNum h5,
+    #wrapper-jiraNum h6 {
+        color: #000000;
+        font-family: "Montserrat", Gotham, Helvetica, Tahoma, sans-serif;
+        line-height: 1.4em;
+        margin: 0;
+        text-align: center;
+    }
+
+    #wrapper-jiraNum h1 {
+        font-size: 2.2em;
+        font-weight: normal;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #wrapper-jiraNum h2 {
+        font-size: 2em;
+        font-weight: 500;
+        line-height: 1.4em;
+        margin-bottom: 30px;
+    }
+
+    #wrapper-jiraNum h3 {
+        font-size: 1.8em;
+        font-weight: normal;
+        line-height: 1.2em;
+        margin-bottom: 30px;
+    }
+
+    #wrapper-jiraNum h4 {
+        font-size: 1.5em;
+        font-weight: normal;
+        line-height: 1.2em;
+        margin-bottom: 30px;
+    }
+
+    #wrapper-jiraNum img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #wrapper-jiraNum p {
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: 0 0 1em 0;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    #wrapper-jiraNum section {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+
+    /* BUTTON SECTION */
+    /* --------BUTTON ONE---------- */
+    #wrapper-jiraNum a.ctaButtonOne {
+        background: #000000;
+        color: #ffffff;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0.5rem 0;
+        padding: 0.75em 1.25em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #wrapper-jiraNum a.ctaButtonOne:hover,
+    #wrapper-jiraNum a.ctaButtonOne:focus {
+        background: #585555;
+        border: none;
+        color: #ffffff;
+    }
+
+    /* --------BUTTON TWO---------- */
+    #wrapper-jiraNum a.ctaButtonTwo {
+        background: #ffffff;
+        color: #000000;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1.2em;
+        font-style: normal;
+        font-weight: 500;
+        margin: 0.5rem 0;
+        padding: 0.75em 1.25em;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #wrapper-jiraNum a.ctaButtonTwo:hover,
+    #wrapper-jiraNum a.ctaButtonTwo:focus {
+        background: #cccccc;
+        border: none;
+        color: #000000;
+    }
+
+    /* HERO SECTION */
+
+    #wrapper-jiraNum .secHero {
+        background: url('http://placehold.jp/3200x1200.png') no-repeat center;
+        background-color: black;
+        background-size: cover;
+        padding-top: 8vh;
+        padding-bottom: 8vh;
+    }
+
+    #wrapper-jiraNum .heroCol {
+        height: 62vh;
+    }
+
+    #wrapper-jiraNum .heroBox {
+        background-color: #fff;
+        color: #000;
+        width: 80%;
+        padding: 20px;
+    }
+
+    #wrapper-jiraNum .secHero h1 {
+        text-transform: uppercase;
+    }
+
+    /* TITLE SECTION */
+    #wrapper-jiraNum .secTitle {
+        margin: 30px 0;
+    }
+
+    /* SECTION ONE */
+
+    /* SECTION TWO */
+    #wrapper-jiraNum .secTwo {
+        background-color: #000000;
+    }
+
+    #wrapper-jiraNum .secTwo h2,
+    #wrapper-jiraNum .secTwo h3,
+    #wrapper-jiraNum .secTwo p {
+        color: #fff;
+    }
+
+    /* SECTION THREE */
+    /* SECTION FOUR */
+    /* SECTION FIVE */
+    /* SECTION SIX */
+
+    /* UF PRICING */
+    /* #wrapper-jiraNum p.pricing {
+        color: #000;
+        margin-bottom: 1.5em;
+        text-align: center;
+    }
+
+    #wrapper-jiraNum p.pricing>span {
+        background: rgba(0, 0, 0, 0.75);
+        display: inline-block;
+        height: 30px;
+        line-height: 30px;
+        margin: 0 1em -0.5em;
+        width: 1px;
+    } */
+
+    @media (min-width: 576px) {
+        #wrapper-jiraNum .secThree .contentBox {
+            height: 35%;
+            padding: 20px;
+        }
+    }
+</style>
+
+<div id="wrapper-jiraNum">
+    <!-- HERO SECTION -->
+    <section class="secHero">
+        <div class="container">
+            <div class="row">
+                <div
+                    class="col-12 col-md-12 col-lg-12 heroCol align-items-center justify-content-center align-content-center d-flex">
+                    <div class="heroBox">
+                        <h1>Tagline</h1>
+                        <p>Lorem Ipsum has been the industry's standard dummy</p>
+                        <a class="ctaButtonOne">I'm a button!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TITLE SECTION -->
+    <section class="secTitle">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-12 col-lg-12">
+                    <h2>Title Section</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION ONE ---- TWO COL -->
+    <section class="secOne">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 sm-padding">
+                    <h2>Tagline</h2>
+                    <h3>Sub-tagline</h3>
+                    <p>Description Info</p>
+                    <a class="ctaButtonOne">I'm a button!</a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                    <img src="http://placehold.jp/800x800.png" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECTION TWO ---- TWO COL with row reversal from mobile to desktop -->
+    <section class="secTwo">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 order-last order-sm-first">
+                    <img src="http://placehold.jp/800x800.png" />
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 order-first order-sm-last sm-padding">
+                    <h2>Tagline</h2>
+                    <h3>Sub-tagline</h3>
+                    <p>Description Info</p>
+                    <a class="ctaButtonTwo">I'm a button!</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- SECTION THREE -->
+    <section class="secThree sec-padding">
+        <div class="container">
+            <div class="row row-flex ">
+                <div class="col-12 col-sm-4 col-lg-4">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                    <div class="contentBox">
+                        <h3>Tagline</h3>
+                        <p>Lorem Ipsum</p>
+                    </div>
+                    <a class="ctaButtonOne">I'm a button!</a>
+
+                </div>
+                <div class="col-12 col-sm-4 col-lg-4">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                    <div class="contentBox">
+                        <h3>Tagline</h3>
+                        <p>Lorem Ipsum has been the industry's</p>
+                    </div>
+                    <a class="ctaButtonOne">I'm a button!</a>
+                </div>
+                <div class="col-12 col-sm-4 col-lg-4">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                    <div class="contentBox">
+                        <h3>Tagline</h3>
+                        <p>Lorem Ipsum has been the industry's standard dummy</p>
+                    </div>
+                    <a class="ctaButtonOne">I'm a button!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FOUR -->
+    <section class="secFour sec-padding">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-6 col-md-3 col-lg-3 order-1 order-sm-1">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 order-2 order-sm-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-12 col-md-6 col-lg-6  order-3 order-sm-3">
+                    <h3>Tagline</h3>
+                    <p>Sub-text</p>
+                    <a class="ctaButtonOne">I'm a button!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION FIVE -->
+
+    <section class="secFive sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-3 col-lg-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-3 col-lg-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SIX - VIDEO -->
+
+    <section class="secSix sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 c-video">
+                    <iframe src="https://www.youtube.com/embed/9XQSFLMpn_c" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SEVEN - reordering -->
+    <section class="secSeven sec-padding">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-md-6 col-lg-6 order-2 order-xs-2 order-md-1">
+                    <h3>Tagline</h3>
+                    <p>Sub-text</p>
+                    <a class="ctaButtonOne">I'm a button!</a>
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 order-1 order-xs-1 order-md-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-12 col-md-3 col-lg-3 order-3 order-xs-3 order-md-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION EIGHT -->
+    <section class="secEight">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-6 col-md-2 col-lg-2">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION NINE -->
+    <section class="secNine">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-4 col-md-4 col-lg-4">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-12 col-sm-8 col-md-8 col-lg-8">
+                    <img src="http://placehold.jp/1100x525.png" class="sm-padding" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TEN -->
+    <section class="secTen">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-sm-5 col-md-5 col-lg-5">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-12 col-sm-7 col-md-7 col-lg-7">
+                    <img src="http://placehold.jp/900x625.png" class="sm-padding" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION TWELVE -->
+    <section class="secTwelve">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3 col-lg-3">
+                    <img src="http://placehold.jp/800x800.png" class="sm-padding" />
+                </div>
+                <div class="col-12 col-md-9 col-lg-9">
+                    <img src="http://placehold.jp/800x245.png" class="sm-padding" />
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
